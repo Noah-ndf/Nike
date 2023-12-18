@@ -1,0 +1,357 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Public sans, sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*<----------Navbar 1---------->*/
+
+.navbar1 {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.navbar1-logos {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.logo_jordan, .logo_converse {
+    width: auto;
+    height: 36px;
+}
+
+.logo_converse {
+    scale: 0.6;
+}
+
+.navbar1-logos > img :hover {
+    color: gray;
+}
+
+
+.navbar1-nav {
+    display: flex;
+    background-color: #f5f5f5;
+    margin-right: 40px;
+}
+
+.navbar1-nav > * {
+    font-size: 12px;
+    letter-spacing: -0.12857143580913544px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.navbar1-nav > a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: -0.2px;
+}
+
+.navbar1-nav > a:hover {
+    color: gray;
+}
+
+/*<----------Navbar 2---------->*/
+
+.navbar2 {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.logo_nike{
+    margin-top: 20px;
+    height: 18px;
+    margin-left: 50px;
+    scale: 1.1;
+}
+
+
+.navbar2-nav {
+    display: flex;
+    margin-left: 180px;
+}
+
+.navbar2-nav > a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.10769230872392654px;
+    text-align: center;
+    margin-inline: 10px;
+    padding: 24px 0 ;
+}
+
+.navbar2-nav > a:hover {
+    border-bottom: solid 2px black;
+}
+
+.navbar2-buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.navbar2-buttons > * {
+    margin-left: 30px;
+}
+
+.search {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 40px;
+}
+.search > i {
+    scale: 1.2;
+    margin-left: 5px;
+}
+
+.search > input {
+    border: transparent;
+    border-radius: 0px;
+    background-color: transparent;
+    width: 100px;
+    margin-left: 10px;
+}
+
+/*<----------Info---------->*/
+
+.info {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.info p {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.info a {
+    font-size: 12px;
+    color: black;
+    margin-top: 1px;
+}
+
+.info > a:hover {
+    color: gray;
+}
+
+/*----------Main----------*/
+
+.hero {
+    margin: auto;
+    width: 450px;
+    height: 457.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logos {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.logos :nth-child(1) {
+    height: 25px;
+}
+
+.logos :nth-child(2) {
+    height: 80px;
+}
+
+.hero h1 {
+    font-size: 25px;
+}
+
+.location {
+    display: flex;
+    margin-top: 15px;
+}
+
+.location a {
+    margin-left: 10px;
+    color: gray;
+}
+
+.hero input {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    color: gray ;
+}
+
+.desc {
+    margin-top: 40px;
+    width: 350px;
+    color: gray;
+    line-height: 25px;
+}
+
+.hero button {
+    margin-top: 40px;
+    width: 120px;
+    padding: 15px;
+    align-self: end;
+    border: none;
+    background-color: #111111;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 50px;
+}
+
+.hero button:hover {
+    background-color: grey;
+}
+
+/*<----------Footer---------->*/
+
+footer {
+    background-color: #111111;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-top {
+    margin-top: 40px;
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-top > div {
+    height: 100%;
+    width: 200px;
+}
+
+.section-top1,
+.section-top2,
+.section-top3,
+.section-top4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-top > div > * {
+    margin-bottom: 25px;
+}
+
+.big-link {
+    color: white;
+    text-decoration: none   ;
+    font-family: Impact, sans-serif;
+}
+
+.small-link {
+    color: grey;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.small-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.section-top4 > input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.section-top4 > p {
+    color: #808080;
+    font-size: 12px;
+}
+
+.submit {
+    color: white;
+    padding: 10px;
+    background-color: rgb(20, 20, 20);
+    border: white solid 1px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+
+.section-top5 > a > i {
+    padding: 5px 5px;
+    margin-left: 20px;
+    scale: 1.2;
+    text-align: right;
+    background-color: #e3e3e3;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color:  rgb(20, 20, 20);
+}
+
+.section-bottom {
+    margin-top: 50px;
+    display: flex;
+    height: 50px;
+    width: 90%;
+}
+
+.section-bottom > div {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.section-bottom-left {
+    align-items: center;
+}
+
+.section-bottom-left > p {
+    margin: 10px;
+    color: white;
+}
+
+.section-bottom-right {
+    align-items: center;
+}
+
+.section-bottom-right > p {
+    margin-left: auto;
+    color: grey;
+}

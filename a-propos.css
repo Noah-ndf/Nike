@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+}
+
+/*----------Navbar----------*/
+
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 50px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.links * {
+    margin-left: 30px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links i {
+    color: white;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+.links i:hover {
+    color: grey;
+}
+
+/*----------HERO----------*/
+
+.hero {
+    margin-top: 200px;
+    color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    word-spacing: 0px;
+    align-items: left;
+    padding: 0 5px;
+    white-space: pre-line;
+}
+
+.hero h1 {
+    margin-left: 50px;
+    font-size: 30px;
+    margin-bottom: -20px;
+    font-weight: 1px;
+}
+
+.hero h2 {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 190px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.hero p {
+
+    margin-left: 50px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 100px;
+}
+
+.bio {
+    margin-left: 30%;
+    width: 70%;
+    height: auto;
+}
+
+.bio p{
+  font-family:Arial, sans-serif;
+  font-size:80px;
+  font-weight: bold;
+  margin-top:50px;
+  margin-bottom:60px;
+}
+
+/*----------Bloc 2----------*/
+
+.part2 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.part2-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.part2-1 img{
+    width:60%; 
+    height:auto;
+    margin-right: 2%;
+}
+
+.part2-1-text {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.part2-1-text h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.part2-1-text p {
+    margin-top: 20px;
+    color: grey;
+}
+
+.part2-2 {
+    margin-top: 200px;
+}
+
+/*part2*/
+
+.part2-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part2-2 img{
+    width:60%; 
+    height:auto;
+    margin-left: 2%;
+}
+
+.part2-2-text {
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.part2-2-text h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.part2-2-text p {
+    margin-top: 20px;
+    color: grey;
+}
+
+/*<----------Footer---------->*/
+
+footer {
+    background-color: #111111;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-top {
+    margin-top: 40px;
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-top > div {
+    height: 100%;
+    width: 200px;
+}
+
+.section-top1,
+.section-top2,
+.section-top3,
+.section-top4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-top > div > * {
+    margin-bottom: 25px;
+}
+
+.big-link {
+    color: white;
+    text-decoration: none   ;
+    font-family: Impact, sans-serif;
+}
+
+.small-link {
+    color: grey;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.small-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.section-top4 > input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+.section-top4 > p {
+    color: #808080;
+    font-size: 12px;
+}
+
+.submit {
+    color: white;
+    padding: 10px;
+    background-color: rgb(20, 20, 20);
+    border: white solid 1px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+
+.section-top5 > a > i {
+    padding: 5px 5px;
+    margin-left: 20px;
+    scale: 1.2;
+    text-align: right;
+    background-color: #e3e3e3;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color:  rgb(20, 20, 20);
+}
+
+.section-bottom {
+    margin-top: 50px;
+    display: flex;
+    height: 50px;
+    width: 90%;
+}
+
+.section-bottom > div {
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.section-bottom-left {
+    align-items: center;
+}
+
+.section-bottom-left > p {
+    margin: 10px;
+    color: white;
+}
+
+.section-bottom-right {
+    align-items: center;
+}
+
+.section-bottom-right > p {
+    margin-left: auto;
+    color: grey;
+}
